@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doctor X - Advanced Clinic Management System</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Doctor X</div>
+            <div class="nav-links">
+                <a href="#features">Features</a>
+                <a href="#benefits">Benefits</a>
+                <a href="#testimonials">Testimonials</a>
+                <a href="#pricing">Pricing</a>
+                <a href="#download" class="cta-button">Download</a>
+            </div>
+            <div class="menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Streamline Your Clinic Management</h1>
+            <p>Doctor X is a powerful, intuitive clinic management system designed for healthcare professionals. Manage patients, appointments, and medical records with ease.</p>
+            <div class="hero-buttons">
+                <a href="#download" class="primary-button">Download Now</a>
+                <a href="#demo" class="secondary-button">Watch Demo</a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <img src="assets/dashboard.png" alt="Doctor X Dashboard" id="hero-img">
+        </div>
+    </section>
+
+    <section id="features" class="features">
+        <h2>Powerful Features</h2>
+        <div class="features-grid">
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <img src="assets/patient-icon.svg" alt="Patient Management">
+                </div>
+                <h3>Patient Management</h3>
+                <p>Easily manage patient records, history, and demographics in one centralized system.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <img src="assets/appointment-icon.svg" alt="Appointment Scheduling">
+                </div>
+                <h3>Appointment Scheduling</h3>
+                <p>Streamline appointment booking, rescheduling, and patient queue management.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <img src="assets/medical-icon.svg" alt="Medical Records">
+                </div>
+                <h3>Medical Records</h3>
+                <p>Track comprehensive medical histories, conditions, medications, and allergies.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <img src="assets/billing-icon.svg" alt="Billing">
+                </div>
+                <h3>Billing & Invoicing</h3>
+                <p>Generate invoices, track payments, and manage financial records efficiently.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="app-preview">
+        <div class="preview-content">
+            <h2>Intuitive Interface</h2>
+            <p>Doctor X features a clean, modern interface designed for efficiency. Navigate patient records, schedule appointments, and access medical histories with just a few clicks.</p>
+            <ul class="preview-features">
+                <li>Dark mode for reduced eye strain during long hours</li>
+                <li>Customizable dashboard for your workflow</li>
+                <li>Quick search functionality for patient records</li>
+                <li>Comprehensive patient history view</li>
+            </ul>
+        </div>
+        <div class="preview-image">
+            <img src="assets/patient-record.png" alt="Patient Record Screen" id="preview-img">
+        </div>
+    </section>
+
+    <section id="benefits" class="benefits">
+        <h2>Why Choose Doctor X?</h2>
+        <div class="benefits-container">
+            <div class="benefit">
+                <h3>Cross-Platform</h3>
+                <p>Available for Mac, Windows, and Linux - use it on any computer in your clinic.</p>
+            </div>
+            <div class="benefit">
+                <h3>Data Security</h3>
+                <p>Advanced encryption and security protocols to keep patient data safe and HIPAA compliant.</p>
+            </div>
+            <div class="benefit">
+                <h3>Time-Saving</h3>
+                <p>Reduce administrative work by up to 40% with automated workflows and intuitive design.</p>
+            </div>
+            <div class="benefit">
+                <h3>Offline Access</h3>
+                <p>Continue working even without internet connection - data syncs when you're back online.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonials" class="testimonials">
+        <h2>What Our Users Say</h2>
+        <div class="testimonial-slider">
+            <div class="testimonial active">
+                <p>"Doctor X has transformed how we manage our clinic. Patient records are now organized and accessible, saving us hours each day."</p>
+                <div class="testimonial-author">Dr. Sarah Johnson, Family Practice</div>
+            </div>
+            <div class="testimonial">
+                <p>"The appointment scheduling system is intuitive and has reduced our no-shows by 30%. Our staff loves how easy it is to use."</p>
+                <div class="testimonial-author">Mark Williams, Clinic Manager</div>
+            </div>
+            <div class="testimonial">
+                <p>"As a specialist with multiple locations, Doctor X helps me access patient information wherever I am. The cross-platform support is excellent."</p>
+                <div class="testimonial-author">Dr. Michael Chen, Cardiologist</div>
+            </div>
+        </div>
+        <div class="testimonial-controls">
+            <button class="prev-testimonial">❮</button>
+            <div class="testimonial-dots">
+                <span class="dot active"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+            </div>
+            <button class="next-testimonial">❯</button>
+        </div>
+    </section>
+
+    <section id="pricing" class="pricing">
+        <h2>Simple, Transparent Pricing</h2>
+        <div class="pricing-cards">
+            <div class="pricing-card">
+                <div class="pricing-header">
+                    <h3>Basic</h3>
+                    <div class="price">$49<span>/month</span></div>
+                </div>
+                <ul class="pricing-features">
+                    <li>Up to 500 patient records</li>
+                    <li>2 user accounts</li>
+                    <li>Basic appointment scheduling</li>
+                    <li>Patient demographics</li>
+                    <li>Email support</li>
+                </ul>
+                <a href="#download" class="pricing-button">Download Trial</a>
+            </div>
+            <div class="pricing-card featured">
+                <div class="pricing-header">
+                    <h3>Professional</h3>
+                    <div class="price">$99<span>/month</span></div>
+                </div>
+                <ul class="pricing-features">
+                    <li>Unlimited patient records</li>
+                    <li>5 user accounts</li>
+                    <li>Advanced scheduling</li>
+                    <li>Complete medical records</li>
+                    <li>Billing & invoicing</li>
+                    <li>Priority support</li>
+                </ul>
+                <a href="#download" class="pricing-button">Download Trial</a>
+            </div>
+            <div class="pricing-card">
+                <div class="pricing-header">
+                    <h3>Enterprise</h3>
+                    <div class="price">$199<span>/month</span></div>
+                </div>
+                <ul class="pricing-features">
+                    <li>Unlimited patient records</li>
+                    <li>Unlimited user accounts</li>
+                    <li>Custom integrations</li>
+                    <li>Advanced analytics</li>
+                    <li>Multi-location support</li>
+                    <li>24/7 dedicated support</li>
+                </ul>
+                <a href="#download" class="pricing-button">Download Trial</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="download" class="download">
+        <h2>Download Doctor X</h2>
+        <p>Available for all major platforms. Free 30-day trial, no credit card required.</p>
+        <div class="download-options">
+            <a href="#" class="download-button windows">
+                <img src="assets/windows-icon.svg" alt="Windows">
+                <span>Windows</span>
+            </a>
+            <a href="#" class="download-button mac">
+                <img src="assets/mac-icon.svg" alt="macOS">
+                <span>macOS</span>
+            </a>
+            <a href="#" class="download-button linux">
+                <img src="assets/linux-icon.svg" alt="Linux">
+                <span>Linux</span>
+            </a>
+        </div>
+        <div class="system-requirements">
+            <h4>System Requirements</h4>
+            <div class="requirements-grid">
+                <div>
+                    <h5>Windows</h5>
+                    <p>Windows 10 or later<br>4GB RAM<br>500MB disk space</p>
+                </div>
+                <div>
+                    <h5>macOS</h5>
+                    <p>macOS 10.14 or later<br>4GB RAM<br>500MB disk space</p>
+                </div>
+                <div>
+                    <h5>Linux</h5>
+                    <p>Ubuntu 18.04 or equivalent<br>4GB RAM<br>500MB disk space</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta">
+        <h2>Ready to Transform Your Clinic?</h2>
+        <p>Join thousands of healthcare professionals who trust Doctor X for their clinic management needs.</p>
+        <a href="#download" class="primary-button">Get Started Today</a>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">
+                <div class="logo">Doctor X</div>
+                <p>Advanced Clinic Management System</p>
+            </div>
+            <div class="footer-links">
+                <div class="footer-column">
+                    <h4>Product</h4>
+                    <a href="#features">Features</a>
+                    <a href="#pricing">Pricing</a>
+                    <a href="#">Roadmap</a>
+                    <a href="#">Release Notes</a>
+                </div>
+                <div class="footer-column">
+                    <h4>Resources</h4>
+                    <a href="#">Documentation</a>
+                    <a href="#">Tutorials</a>
+                    <a href="#">Blog</a>
+                    <a href="#">Community</a>
+                </div>
+                <div class="footer-column">
+                    <h4>Company</h4>
+                    <a href="#">About Us</a>
+                    <a href="#">Careers</a>
+                    <a href="#">Contact</a>
+                    <a href="#">Partners</a>
+                </div>
+                <div class="footer-column">
+                    <h4>Legal</h4>
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                    <a href="#">HIPAA Compliance</a>
+                    <a href="#">Security</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Doctor X. All rights reserved.</p>
+            <div class="social-links">
+                <a href="#" aria-label="Twitter"><img src="assets/twitter-icon.svg" alt="Twitter"></a>
+                <a href="#" aria-label="LinkedIn"><img src="assets/linkedin-icon.svg" alt="LinkedIn"></a>
+                <a href="#" aria-label="Facebook"><img src="assets/facebook-icon.svg" alt="Facebook"></a>
+                <a href="#" aria-label="YouTube"><img src="assets/youtube-icon.svg" alt="YouTube"></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
